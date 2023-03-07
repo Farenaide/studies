@@ -30,8 +30,12 @@ a{
     margin-right: 30px;
 }
 
-#button{
+.buttons{
+    border: none;
+    color: white;
+    font-size: 20px;
     display: inline-block;
+    font-family: 'Fira Code', sans-serif;
     background-color: #F25A70;
     line-height: 60px;
     height: 60px;
@@ -41,7 +45,8 @@ a{
     transition: .1s ;
 }
 
-#button:hover{
+.buttons:hover{
     background-color: #ff3856;
     transform: scale(1.06);
 }
+
