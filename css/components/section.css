@@ -1,0 +1,15 @@
+.section{
+background-color: #F25A70;
+border-bottom: 10px solid #7C5E99 ;
+padding: 50px 0 100px 0 ;
+}
+
+.section .main-title{
+    margin-bottom: 60px;
+}
+
+.section._projetos{
+    background-color: black;
+    border-color: #F25A70;
+    padding: 50px 0 0 0;
+}
