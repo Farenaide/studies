@@ -2,7 +2,7 @@
     background-color: white;
     border: 5px solid black;
     height: 40px;
-    width: 360px;
+    width: 362px;
 }
 
 .progress-bar::-webkit-progress-bar,
@@ -14,3 +14,4 @@
 .progress-bar::-moz-progress-bar {
     background-color: #AF60BC;
 }
+
