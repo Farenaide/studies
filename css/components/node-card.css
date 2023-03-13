@@ -1,0 +1,47 @@
+
+.node-card{    
+    position: relative;
+}
+
+.node-card::before{
+    content: '';
+    height: 105px;     
+    border-left: 5px dashed black;
+    transform: scaleY(.5);
+    display: flex;    
+    margin-left: calc(50% - 2.5px);
+    position: absolute;
+    bottom: 120px;
+    z-index: 10;
+    
+}
+
+.node-card .logo{
+    height: 150px;
+    box-sizing: border-box;    
+    padding: 56px 20px;
+    border: 5px solid black;
+    background-color: #CEB02A;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.node-card .title{
+    font-size: 25px;
+    font-weight: 400;
+    color: #F25A70;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.node-card .logo._clean{
+    padding: 0;
+}
+
+.node-card._first .logo{
+    background-color: #F25A70;
+}
+
+

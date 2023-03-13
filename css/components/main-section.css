@@ -13,3 +13,11 @@ padding: 50px 0 100px 0 ;
     border-color: #F25A70;
     padding: 50px 0 0 0;
 }
+
+.main-section._sobre{
+    background-color: #7C5E99;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
