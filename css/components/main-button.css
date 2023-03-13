@@ -12,9 +12,18 @@
     margin-right: 0;
     transition: .1s ;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover{
     background-color: #ff3856;
     transform: scale(1.06);
+}
+
+.main-button._full{
+    width: 100%;
+}
+
+.main-button._full:hover{
+    transform: scale(1.03);
 }
